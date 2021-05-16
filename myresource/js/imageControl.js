@@ -27,7 +27,7 @@ function onReady(fn){
   img.style.left = 0;
   img.style.opacity= 0;
   img.style.zIndex = -100;
-  img.style.transition = 'opacity 2s';
+  img.style.transition = 'opacity 0.5s';
   img.style.position = 'fixed';
   img.style.backgroundAttachment = 'fixed';
   img.setAttribute('id','backgroundImg');
